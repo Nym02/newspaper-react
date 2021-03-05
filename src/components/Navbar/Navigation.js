@@ -34,6 +34,11 @@ const Navigation = () => {
                   TechCrunch
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/topbusiness">
+                  TopBusiness
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
