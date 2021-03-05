@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navigation";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TechCrunch from "./components/TechCrunch/TechCrunch";
+import WallStreet from "./components/WallStreet/WallStreet";
 
 library.add(fab, faCheckSquare, faCoffee);
 
@@ -15,7 +16,7 @@ function App() {
         <Navbar></Navbar>
 
         <Switch>
-          <Route path="/" exact />
+          <Route path="/" exact component={WallStreet} />
           <Route path="/techcrunch" component={TechCrunch} />
         </Switch>
       </div>
