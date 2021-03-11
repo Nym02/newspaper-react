@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navigation";
 import TechCrunch from "./components/TechCrunch/TechCrunch";
 import WallStreet from "./components/WallStreet/WallStreet";
 import TopBusiness from "./components/TopBusiness/TopBusiness";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 library.add(fab, faCheckSquare, faCoffee);
 

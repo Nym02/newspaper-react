@@ -10,7 +10,7 @@ const Post = (props) => {
           <img
             class="card-img-top"
             src={urlToImage}
-            alt="Card image cap"
+            alt=""
             style={{ width: "100%", height: "400px" }}
           />
           <div class="card-body">
@@ -22,7 +22,12 @@ const Post = (props) => {
               <small>by:</small> {author}
             </p>
             <br />
-            <a href={url} target="_blank" class="btn btn-primary">
+            <a
+              href={url}
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
               View News
             </a>
           </div>
